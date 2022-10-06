@@ -2,7 +2,7 @@
 		$('#us').append('USER ID: '+det[0]);
 		for (i=0; i<3; i++) {
 			$('div:eq(2) input:eq('+i+')').val(det[i+1]);
-			$('div:eq(3) input:eq('+i+')').val(det[i+1]);
+			$('div:eq(4) input:eq('+i+')').val(det[i+1]);
 		}
 		$('#pass2').keyup(function () {
 			$('span .fa').remove();
