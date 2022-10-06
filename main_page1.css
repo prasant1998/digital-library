@@ -1,0 +1,84 @@
+		body {
+			background-color: #e6ffff;
+		}
+		#new {
+			background:none;
+			border:none;
+			margin:0;
+			padding:0;
+			cursor: pointer;
+		}
+		
+		* {
+			box-sizing: border-box;
+		}
+
+		input[type=text], input[type=password] {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  border: none;
+		  resize: vertical;
+		}
+		
+		#pass2 {
+		  width: 90%;
+		}
+		
+		label {
+		  padding: 12px 12px 12px 0;
+		  display: inline-block;
+		  color: black;
+		  text-shadow: 1px 1px 2px gray;
+		  font-weight: bolder;
+		}
+
+		input[type=submit] {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  float: right;
+		  margin-top: 20px;
+		  box-shadow: 0px 0px 5px gray;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+
+		.w3-container {
+		  border-radius: 5px;
+		  background-color: #99ffff;
+		  padding: 20px;
+		  width: 40%;
+		  margin-top: 10%;
+		  margin-left: 30%;
+		  box-shadow: 0px 0px 4px 2px #99ffff;
+		}
+		
+		.w1 {
+		  border-radius: 5px;
+		  background-color: #99ffff;
+		  padding: 20px;
+		  width: 70%;
+		  height: 100%;
+		  margin-top: 10%;
+		  margin-left: 15%;
+		  box-shadow: 0px 0px 4px 2px #99ffff;
+		}
+
+		.col-25 {
+		  float: left;
+		  width: 25%;
+		  margin-top: 6px;
+		}
+
+		.col-75 {
+		  float: left;
+		  width: 75%;
+		  margin-top: 6px;
+		}

@@ -1,0 +1,80 @@
+.w2, .w3 {
+		  border-radius: 10px;
+		  padding: 20px;
+		  width: 60%;
+		  margin-top: 10%;
+		  margin-left: 20%;
+		}
+	
+		.w2 label, .w3 label {
+		  display: inline-block;
+		  color: #002e4d;
+		  text-shadow: 1px 1px 2px gray;
+		  font-weight: bolder;
+		  float: left;
+		  width: 22%;
+		  margin-top: 15px;
+		  margin-left: 3%;
+		}
+		
+		.w2 input, .w3 input {
+		  padding: 6px;
+		  border: 1px solid #ccc;
+		  border-radius: 6px;
+		  resize: vertical;
+		  float: left;
+		  width: 72%;
+		  margin-top: 15px;
+		}
+		
+		button[type=submit] {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 8px;
+		  cursor: pointer;
+		  float: right;
+		  margin-top: 40px;
+		  box-shadow: 1px 1px 5px 1px grey; 
+		  margin-right: 25px;
+		}
+		
+		.w1 {
+		  border-radius: 10px;
+		  background-color: #ffd480;
+		  padding: 20px;
+		  width: 60%;
+		  margin-top: 10%;
+		  margin-left: 20%;
+		  box-shadow: 0px 0px 4px 2px #ffd480;
+		}
+		.w1 label {
+		  color: #332200;
+		  text-shadow: 1px 1px 2px gray;
+		  font-weight: bolder;
+		  float: left;
+		  width: 22%;
+		  margin-top: 15px;
+		  margin-left: 3%;
+		}
+		.w1 input {
+		  background-color: #ffe6b3;
+		  border-radius: 6px;
+		  width: 72%;
+		  padding: 6px;
+		  border: 1px solid #ccc;
+		  border-radius: 10px;
+		  border: none;
+		  resize: vertical;
+		  float: left;
+		  margin-top: 15px;
+		  box-shadow: 0px 0px 2px 1px #ffe6b3;
+		  text-align: center;
+		}
+		.w3-btn {
+			box-shadow: 1px 1px 4px 2px #ffa600; 
+		}
+		#pass2 {
+		  width: 66%;
+		}
