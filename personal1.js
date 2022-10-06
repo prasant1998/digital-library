@@ -43,7 +43,7 @@
 		
 		function borr_fun(i) {
 			$.post("book_borr.php", {mem_id: id, book_id: i}, function(data) {
-																		if(data==2) {
+																		if(data==1) {
 																			disp_borr();
 																			book_disp();
 																		} else if (data==1){
